@@ -122,3 +122,4 @@ elif menu == "Study Planner":
             ])
         else:
             st.warning("Please enter an exam name.")
+            
