@@ -122,4 +122,26 @@ elif menu == "Study Planner":
             ])
         else:
             st.warning("Please enter an exam name.")
+# IBM Bob Integration - StudyMate AI
+
+## Overview
+IBM Bob served as the core AI-powered development partner throughout the lifecycle of building StudyMate AI. By leveraging IBM Bob’s repository-wide context and agentic capabilities, we planned, built, tested, and optimized the application.
+
+## Detailed Breakdown
+
+### 1. Spec-Driven Architecture & Planning
+* *Requirement Analysis:* Refined the concept of StudyMate AI into concrete technical requirements for topic simplification, summary generation, quiz creation, and personalized study planning.
+* *Task Decomposition:* Structured high-level requirements into clear developmental tasks (backend logic, API setup, UI components).
+
+### 2. AI Prompt & Backend Engineering
+* *Logic Implementation:* Designed and structured prompt wrappers that take raw student input (subject/topic) and return simple explanations, summary notes, and practice quiz questions.
+* *API & Core Logic Development:* Generated boilerplate code, integrated LLM service APIs, and handled data parsing for structured outputs.
+
+### 3. Frontend & UI Integration
+* *Code Generation:* Constructed responsive user interface components for student interaction, including topic submission forms, explanation cards, and progress tracking dashboards.
+* *Contextual Refactoring:* Applied full codebase context to ensure components integrated smoothly with the backend service.
+
+### 4. Debugging, Edge-Case Handling & Optimization
+* *Edge-Case Management:* Identified potential failure points (long text inputs, invalid subject topics, API timeouts) and implemented graceful fallback mechanisms.
+* *Code Clean-up & Documentation:* Automated repository inline documentation and refactored redundant code segments prior to project submission.
             
